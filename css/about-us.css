@@ -1,0 +1,44 @@
+.about-us-text {
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.game-over-quote {
+  display: flex;
+  justify-content: left;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 114%;
+  text-align: left;
+  text-transform: uppercase;
+  word-break: break-all;
+}
+
+.game-over-quote::before{
+  content: "“";
+  font-weight: 900;
+  color: #6c0287;
+  margin-right: 16.03px;
+}
+
+.game-over-quote::after{
+  content: "“";
+  font-weight: 900;
+  color: #6c0287;
+}
+
+.quote-signature {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-style: normal;
+}
+
+.quote-signature::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/ArkadiyAbashin.svg);
+  width: 80px;
+  height: 80px;
+  margin-right: 29.35px;
+}

@@ -1,0 +1,42 @@
+.halls-list {
+  list-style: none;
+}
+
+.halls-item {
+  margin: 60px 0px;
+  width: 100%; 
+  /*
+  С значением как в шаблоне не совсем ровно выглядит
+  width: 1180px;*/
+  min-height: 710px;
+  font-weight: 700;
+  font-size: 70px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.halls-link {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.vibes80 {
+  background: url('../img/80Vibes.jpg') center/cover no-repeat;
+}
+
+.star-wars {
+  background: url('../img/StarWars.jpg') center/cover no-repeat;
+}
+
+.wild-west {
+  background: url('../img/WildWest.jpg') center/cover no-repeat; 
+}
+
+.neon-style {
+  background: url('../img/NeonStyle.jpg')center/cover no-repeat; 
+}

@@ -1,0 +1,85 @@
+.contacts-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  line-height: 117%;
+  font-style: normal;
+  row-gap: 10px;
+}
+
+.address-text {
+  font-weight: 700px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  column-gap: 30px;
+  margin-bottom: 27px;
+}
+
+.address-text::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/location.svg);
+  width: 35px;
+  height: 32px;
+
+}
+
+.contacts-link {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  align-self: flex-start;
+}
+
+.phone::before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+  background-image: url(../img/phone-call-icon.svg);
+  width: 35px;
+  height: 32px;
+}
+
+.mail::before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+  background-image: url(../img/message-icon.svg);
+  width: 36px;
+  height: 24px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  column-gap: 26px;
+  padding: 0;
+  
+}
+
+.social-link {
+  display: block;
+  color: white;
+  width: 50px;
+  height: 50px;
+  transition: 1s;
+  outline: 1px solid transparent;
+  outline-offset: 3px;
+  border-radius: 50%;
+}
+
+.social-link:hover {
+  color: #CD06FF;
+}
+
+.social-link:focus {
+  outline-color: #CD06FF;
+}
+
+.social-link:active {
+  color: #840AA3;
+}
