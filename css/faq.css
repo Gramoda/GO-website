@@ -1,3 +1,7 @@
+.faq{
+  padding-left: 0;
+}
+
 .faq-item {
   background-color: #fff;
   color: #1C1A1A;
@@ -27,9 +31,9 @@
     background-image: url(../img/plus.svg);
     width: 30px;
     height: 30px;
-    background-size: contain;
-    
+    background-size: contain; 
 }
+
 .faq-item:nth-child(odd)::after{
     content: "";
     display: inline-block;
