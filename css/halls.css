@@ -5,9 +5,6 @@
 .halls-item {
   margin: 60px 0px;
   width: 100%; 
-  /*
-  С значением как в шаблоне не совсем ровно выглядит
-  width: 1180px;*/
   min-height: 710px;
   font-weight: 700;
   font-size: 70px;
@@ -19,7 +16,6 @@
 
 .halls-link {
   display: inline-block;
-  width: 100%;
   text-align: center;
   text-decoration: none;
   color: inherit;
