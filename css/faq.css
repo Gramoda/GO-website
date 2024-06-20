@@ -1,5 +1,9 @@
-.faq{
+.faq {
   padding-left: 0;
+}
+
+.faq-title {
+  margin-bottom: 40px;
 }
 
 .faq-item {
@@ -29,6 +33,7 @@
     content: "";
     display: inline-block;
     background-image: url(../img/plus.svg);
+    background-repeat: no-repeat;
     width: 30px;
     height: 30px;
     background-size: contain; 
@@ -38,6 +43,8 @@
     content: "";
     display: inline-block;
     background-image: url(../img/plus-purple.svg);
+    background-repeat: no-repeat;
+
     width: 30px;
     height: 30px;
     background-size: contain;

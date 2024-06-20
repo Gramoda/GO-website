@@ -3,25 +3,31 @@
   font-weight: 900;
   letter-spacing: -0.1em;
   text-align: left;
-  margin-left: 116px;
-  margin-bottom: 0;
 }
 
 .go-subtitle {
   font-size: 28px;
-  margin-left: 200px;
-  margin-top: 0;
   font-weight: 400;
   display: inline-block;
+  padding-left: 100px;
+  margin-bottom: 60px;
 }
 
-.go-subtitle::after {
+.go-subtitle::after {}
+
+.banner {
+  height: 823px;
+  position: relative;
+}
+
+.banner::after {
   content: "";
   background-image: url("../img/maninVr.png");
-  z-index: 100;
-  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  display: block;
   width: 675px;
   height: 762px;
-  transform: translateX(315px) translateY(-120px);
 }
-

@@ -1,44 +1,47 @@
-.about-us-text {
-  font-weight: 400;
-  line-height: 140%;
+.about-us-title {
+  margin-bottom: 50px;
 }
 
-.game-over-quote {
+.owner {
   display: flex;
-  justify-content: left;
+  align-self: flex-end;
+  column-gap: 30px;
+}
+
+.blockquote {
+  display: flex;
+  flex-direction: column;
+}
+
+.renameMe {
+  margin-bottom: 30px;
+}
+
+.quote {
+  position: relative;
+  padding-left: 29px;
+  font-weight: 400;
   font-size: 44px;
-  font-weight: 400;
-  line-height: 114%;
-  text-align: left;
-  text-transform: uppercase;
-  word-break: break-all;
+  line-height: 50px;
+  margin-bottom: 40px;
 }
 
-.game-over-quote::before{
-  content: "“";
+.quote:before {
+  position: absolute;
+  top: -12px;
+  left: 0;
+  content: "\201c";
+  color: #6C0287;
   font-weight: 900;
-  color: #6c0287;
-  margin-right: 16.03px;
+  font-size: 44px;
+  line-height: 50px;
 }
 
-.game-over-quote::after{
-  content: "“";
+.quote::after {
+  content: "\201d";
+  padding-left: 10px;
+  color: #6C0287;
   font-weight: 900;
-  color: #6c0287;
-}
-
-.quote-signature {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  font-style: normal;
-}
-
-.quote-signature::before {
-  content: "";
-  display: inline-block;
-  background-image: url(../img/ArkadiyAbashin.svg);
-  width: 80px;
-  height: 80px;
-  margin-right: 29.35px;
+  font-size: 44px;
+  line-height: 50px;
 }

@@ -62,7 +62,7 @@ a {
   text-decoration: none;
 }
 
-ul {
+ul, ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -73,8 +73,14 @@ h2,
 h3,
 p,
 figure,
-fieldset {
+fieldset, blockquote {
   margin: 0;
+  padding: 0;
+  border: none;
+}
+
+cite {
+  font-style: normal;
 }
 
 body {
@@ -96,18 +102,10 @@ h2 {
 }
 
 .container {
-  max-width: 1260px;
-  padding: 0 30px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
-.wrapper {
-  width: 1200px;
-  padding: 30px;
-  margin: 0 auto;
-}
-
-/*Я не совсем понял где брать точное значение вертикального паддинга*/
-section {
+.section {
   padding: 50px 0;
 }
