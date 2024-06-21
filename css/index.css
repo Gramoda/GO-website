@@ -1,8 +1,8 @@
 @import "normalize.css";
 @import "style.css";
-@import "faq.css";
-@import "halls.css";
-@import "go-sec.css";
-@import "about-us.css";
-@import "contacts.css";
-@import "book.css";
+@import "/faq/faq.css";
+@import "/halls/halls.css";
+@import "/go-sec/go-sec.css";
+@import "/about-us/about-us.css";
+@import "/contacts/contacts.css";
+@import "/book/book.css";

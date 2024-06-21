@@ -83,7 +83,7 @@ cite {
   font-style: normal;
 }
 
-body {
+.page {
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
@@ -94,16 +94,16 @@ body {
   font-size: 20px;
 }
 
-h2 {
-  text-align: center;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 40px;
-}
-
-.container {
+.page__container {
   max-width: 1180px;
   margin: 0 auto;
+}
+
+.general-title { 
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
 }
 
 .section {

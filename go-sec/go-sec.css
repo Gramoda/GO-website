@@ -1,11 +1,12 @@
-.go-title {
+.go__title {
   font-size: 150px;
   font-weight: 900;
   letter-spacing: -0.1em;
   text-align: left;
+  text-transform: uppercase;
 }
 
-.go-subtitle {
+.go__subtitle {
   font-size: 28px;
   font-weight: 400;
   display: inline-block;
@@ -13,14 +14,12 @@
   margin-bottom: 60px;
 }
 
-.go-subtitle::after {}
-
-.banner {
+.go__banner {
   height: 823px;
   position: relative;
 }
 
-.banner::after {
+.go__banner::after {
   content: "";
   background-image: url("../img/maninVr.png");
   position: absolute;

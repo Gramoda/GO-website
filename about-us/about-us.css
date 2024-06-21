@@ -1,32 +1,33 @@
-.about-us-title {
+.about-us__title {
   margin-bottom: 50px;
 }
 
-.owner {
+.about-us__owner {
   display: flex;
   align-self: flex-end;
   column-gap: 30px;
 }
 
-.blockquote {
+.about-us__blockquote {
   display: flex;
   flex-direction: column;
 }
 
-.renameMe {
+.about-us__text-wrapper {
   margin-bottom: 30px;
 }
 
-.quote {
+.about-us__quote {
   position: relative;
   padding-left: 29px;
   font-weight: 400;
   font-size: 44px;
   line-height: 50px;
   margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
-.quote:before {
+.about-us__quote:before {
   position: absolute;
   top: -12px;
   left: 0;
@@ -37,7 +38,7 @@
   line-height: 50px;
 }
 
-.quote::after {
+.about-us__quote::after {
   content: "\201d";
   padding-left: 10px;
   color: #6C0287;
