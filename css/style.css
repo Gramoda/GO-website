@@ -11,21 +11,21 @@
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial'), local('Arial-Regular'), local('Arial Regular'), url('fonts/Arial.woff2');
+  src: local('Arial'), local('Arial-Regular'), local('Arial Regular'), url('../fonts/Arial.woff2');
   font-display: swap;
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial Black'), local('Arial-Black'), url('fonts/Arial-Black.woff2');
+  src: local('Arial Black'), local('Arial-Black'), url('../fonts/Arial-Black.woff2');
   font-display: swap;
   font-weight: 900;
 }
 
 @font-face {
   font-family: 'Arial';
-  src: local('Arial Bold'), local('Arial-Bold'), url('fonts/Arial-Bold.woff2');
+  src: local('Arial Bold'), local('Arial-Bold'), url('../fonts/Arial-Bold.woff2');
   font-display: swap;
   font-weight: 700;
 }

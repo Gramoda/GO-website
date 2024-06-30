@@ -2,19 +2,51 @@
   margin-bottom: 50px;
 }
 
+.about-us__wrapper {
+  display: flex;
+  flex-direction: row;
+  column-gap: 80px;
+}
+
+.about-us__photos {
+  max-width: 600px;
+}
+
+.about-us__many-photos {
+  width: 100%;
+  height: auto;
+}
+
+.about-us__content {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
 .about-us__owner {
   display: flex;
   align-self: flex-end;
   column-gap: 30px;
+  max-width: 389px;
 }
 
 .about-us__blockquote {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
 }
 
 .about-us__text-wrapper {
-  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.about-us__text {
+  line-height: 28px;
+  
 }
 
 .about-us__quote {
@@ -23,7 +55,6 @@
   font-weight: 400;
   font-size: 44px;
   line-height: 50px;
-  margin-bottom: 40px;
   text-transform: uppercase;
 }
 

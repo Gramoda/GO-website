@@ -30,7 +30,7 @@
 
 .faq__item::after {
   content: "";
-  background-image: url(./img/plus.svg);
+  background-image: url(../img/plus.svg);
   background-repeat: no-repeat;
   width: 46px;
   height: 46px;
@@ -40,7 +40,7 @@
 .faq__item:nth-child(odd)::after {
   content: "";
   display: inline-block;
-  background-image: url(./img/plus-purple.svg);
+  background-image: url(../img/plus-purple.svg);
   background-repeat: no-repeat;
   width: 46px;
   height: 46px;

@@ -21,7 +21,7 @@
 
 .go__banner::after {
   content: "";
-  background-image: url("./img/maninVr.png");
+  background-image: url("../img/maninVr.png");
   position: absolute;
   right: 0;
   bottom: 0;
