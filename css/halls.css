@@ -5,13 +5,14 @@
 .halls__list {
   list-style: none;
   display: flex;
-  flex-direction: column;
-  row-gap: 60px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .halls__item {
+  max-width: 580px;
   width: 100%; 
-  height: 710px;
+  height: 349px;
   font-weight: 700;
   font-size: 70px;
   text-transform: uppercase;
