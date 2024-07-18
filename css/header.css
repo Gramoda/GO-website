@@ -1,0 +1,40 @@
+.header {
+  padding-top: 30px;
+}
+
+.header__wrapper {
+  display: flex;
+  text-transform: uppercase;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.logo-img {
+  max-width: 120px;
+  height: auto;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header__link--bordered {
+  padding: 12px 32px;
+  border: 3px solid #CD06FF;
+  align-self: center;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 22px;
+  
+}

@@ -1,0 +1,49 @@
+.accessories__title {
+  margin-bottom: 40px;
+}
+
+.accessories__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.accessories__item {
+  max-width: 380px;
+  width: 100%;
+  height: 228px;
+  padding-left: 40px;
+  padding-top: 166px;
+}
+
+.accessories__text-wrapper {
+  max-width: 300px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.accessories__item--vr {
+  background: url('../img/vr_glasses.png') center/cover no-repeat;
+}
+
+.accessories__item--acoustic {
+  background: url('../img/acoustic.png') center/cover no-repeat;
+}
+
+.accessories__item--jenga {
+  background: url('../img/jenga.png') center/cover no-repeat;
+}
+
+.accessories__item--karaoke {
+  background: url('../img/karaoke.png') center/cover no-repeat;
+}
+
+.accessories__item--netflix {
+  background: url('../img/netflix.jpg') center/cover no-repeat;
+}
+
+.accessories__item--playstation {
+  background: url('../img/playstation5.png') center/cover no-repeat;
+}

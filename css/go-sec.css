@@ -30,3 +30,74 @@
   width: 675px;
   height: 762px;
 }
+
+.go__features {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+  margin-bottom: 150px;
+
+}
+
+.go__feature {
+  text-align: center;
+  flex-direction: column;
+  align-content: flex-end;
+}
+
+.go__number {
+  font-weight: 900;
+  font-size: 100px;
+  color: #cd06ff;
+}
+
+.go__new {
+  font-weight: 900;
+  font-size: 75px;
+
+  font-variant: all-small-caps;
+  color: #cd06ff;
+}
+
+.go__text {
+  font-size: 30px;
+  text-align: center;
+}
+
+.go__halls {
+  max-width: 193px;
+}
+
+.go__instruments {
+  max-width: 161px;
+}
+
+
+.go__button {
+  max-width: 374px;;
+  padding: 25px 69px;
+  background-color: #6c0287;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 115%;
+  text-transform: uppercase;
+  border-radius: 10px;
+  color: #fff;
+  position: relative;
+  display: block;
+  z-index: 2;
+}
+
+.go__button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  width: 374px;
+  height: 80px;
+  filter: blur(20px);
+  background: #6c0287;
+  z-index: -1;
+  display: block;
+}
