@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .faq__item:nth-child(even) {
@@ -30,11 +31,20 @@
 
 .faq__item::after {
   content: "";
-  background-image: url(../img/plus.svg);
+  background-image: url(../img/open_white_original.svg);
   background-repeat: no-repeat;
   width: 46px;
   height: 46px;
   background-size: contain;
+  
+}
+
+.faq__item:hover::after {
+  background-image: url(../img/open_white_hover.svg);
+}
+
+.faq__item:active::after {
+  background-image: url(../img/open_white_active.svg);
 }
 
 .faq__item:nth-child(odd)::after {
@@ -45,5 +55,13 @@
   width: 46px;
   height: 46px;
   background-size: contain;
+  cursor: pointer;
+}
 
+.faq__item:hover:nth-child(odd)::after {
+  background-image: url(../img/open_purple_hover.svg);
+}
+
+.faq__item:nth-child(odd):active::after {
+  background-image: url(../img/open_purple_active.svg);
 }

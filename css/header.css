@@ -29,12 +29,29 @@
 
 }
 
-.header__link--bordered {
+.header__button {
   padding: 12px 32px;
-  border: 3px solid #CD06FF;
+  outline: 3px solid #CD06FF;
   align-self: center;
   border-radius: 10px;
   font-weight: 700;
   font-size: 22px;
+  color: white;
+  text-transform: uppercase;
   
+}
+
+.header__button:hover {
+  outline: 3px solid rgb(108, 2, 135);
+  background: rgb(108, 2, 135);
+}
+
+.header__button:focus {
+  background: rgb(108, 2, 135);
+  outline-color:transparent;
+}
+
+.header__button:active {
+  background: rgb(100, 10, 163);
+  outline: 1px solid black;
 }

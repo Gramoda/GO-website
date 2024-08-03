@@ -85,8 +85,7 @@
   height: 50px;
   transition: 1s;
   outline: 1px solid transparent;
-  outline-offset: 3px;
-  border-radius: 50%;
+ 
 }
 
 .contacts__map {
@@ -96,15 +95,16 @@
 }
 
 .social__link:hover {
-  color: #CD06FF;
+  color: #eadeed;
 }
 
 .social__link:focus {
+  color: #eadeed;
   outline-color: #CD06FF;
 }
 
 .social__link:active {
-  color: #840AA3;
+  color: #CD06FF;
 }
 
 .contacts__designer {
